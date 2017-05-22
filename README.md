@@ -2,9 +2,9 @@
 Monitor application for ERPNext to include Raspberry PI Sense Hat for sensor data and room surveillance
 
 ## Description 
-The Monitor app is an app for ERPNext. It contains the DocType "Sensor data", which allows storing sensor readings.
-
 The SensorData script runs on a Raspberry PI with Sense Hat. When set up with a cron job, it reports the sensor data to ERPNext.
+
+Refer to libracore/monitor for the corresponding ERPNext app to store the sensor data.
 
 ## Requirements
 * ERPNext server

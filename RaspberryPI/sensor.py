@@ -27,6 +27,8 @@ def sync():
    sense.clear()
    temperature = sense.get_temperature()
    temperature = round(temperature , 1)
+   # temperature offset correction
+   temperature = temperature - 5
    print("{} {}".format(temperature, temperature_unit))
    # read humidity
    humidity = sense.get_humidity()
